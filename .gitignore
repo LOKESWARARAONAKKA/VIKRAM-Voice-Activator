@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Audio datasets
+dataset/**/*.wav
+dataset/**/*.mp3
+dataset/**/*.flac
+
+# ML datasets
+dataset/
+*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python logs
+*.log
